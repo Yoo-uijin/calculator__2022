@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/3478f919dc.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="/js/vendor.js" defer></script>
+    <script src="/js/app.js" defer></script>
+  </head>
+  <body>
+    <img src="/img/bg_img.jpg" alt="night sky imgage for background" />
+    <main>
+      <section id="calculator">
+        <input type="number" id="input-number" />
+        <div id="calc-actions">
+          <button type="button" id="btn-add">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+          <button type="button" id="btn-subtract">
+            <i class="fa-solid fa-minus"></i>
+          </button>
+          <button type="button" id="btn-multiply">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <button type="button" id="btn-divide">
+            <i class="fa-solid fa-divide"></i>
+          </button>
+        </div>
+      </section>
+      <section id="results">
+        <h2>Formula: <span id="current-calculation">0</span></h2>
+        <h2>Result: <span id="current-result">0</span></h2>
+      </section>
+    </main>
+  </body>
+</html>
